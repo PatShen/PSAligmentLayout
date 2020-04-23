@@ -96,7 +96,6 @@
     CGFloat previousFrameRightPoint = previousFrame.origin.x + previousFrame.size.width;
     
     if (_autoWordWrap) {
-        // 到达边界前换行
         CGRect currentFrame = currentItemAttributes.frame;
         CGRect strecthedCurrentFrame = CGRectMake(sectionInset.left,
                                                   currentFrame.origin.y,
@@ -122,7 +121,7 @@
         return currentItemAttributes;
     }
     else {
-        // 不换行，一直往 x 轴方向布局
+        // no word wrap, layout all the way to the x axis
         CGRect frame = currentItemAttributes.frame;
         frame.origin.x = previousFrameRightPoint + [self evaluatedMinimumInteritemSpacingForSectionAtIndex:indexPath.section];
         currentItemAttributes.frame = frame;

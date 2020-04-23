@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PSAligmentLayout : UICollectionViewFlowLayout
 
-/// 是否自动换行，默认YES
+/// word wrap，Default is YES
 @property (nonatomic, assign) BOOL autoWordWrap;
 
 @end
