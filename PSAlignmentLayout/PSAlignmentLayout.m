@@ -1,15 +1,15 @@
 //
-//  PSAligmentLayout.m
-//  PSAligmentLayout
+//  PSAlignmentLayout.m
+//  PSAlignmentLayout
 //
 //  Created by shenwenxin on 2020/4/23.
 //  Copyright © 2020 swx. All rights reserved.
 //
 
-#import "PSAligmentLayout.h"
+#import "PSAlignmentLayout.h"
 #import "UICollectionViewLayoutAttributes+Aligment.h"
 
-@implementation PSAligmentLayout
+@implementation PSAlignmentLayout
 
 - (instancetype)init {
     self = [super init];

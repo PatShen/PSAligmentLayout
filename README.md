@@ -1,10 +1,10 @@
-# PSAligmentLayout
+# PSAlignmentLayout
 
 ## Usage
 
 ```objc
 
-PSAligmentLayout* layout = [[PSAligmentLayout alloc] init];
+PSAlignmentLayout* layout = [[PSAlignmentLayout alloc] init];
 
 // If not set this property or set it to `YES`, it will create a word wrap collection.
 [layout setAutoWordWrap:NO];

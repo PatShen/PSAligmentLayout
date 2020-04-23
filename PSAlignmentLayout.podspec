@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PSAligmentLayout.podspec' to ensure this is a
+#  Be sure to run `pod spec lint PSAlignmentLayout.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PSAligmentLayout"
+  spec.name         = "PSAlignmentLayout"
   spec.version      = "1.0.0"
   spec.summary      = "A subclass of UICollectionViewFlowLayout that layout UICollectionViewCell as float layout."
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.homepage     = "https://github.com/PatShen/PSAligmentLayout"
+  spec.homepage     = "https://github.com/PatShen/PSAlignmentLayout"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/PatShen/PSAligmentLayout.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/PatShen/PSAlignmentLayout.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PSAligmentLayout/*.{h,m}"
+  spec.source_files  = "PSAlignmentLayout/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

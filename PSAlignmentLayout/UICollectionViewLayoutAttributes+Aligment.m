@@ -1,6 +1,6 @@
 //
 //  UICollectionViewLayoutAttributes+Aligment.m
-//  PSAligmentLayout
+//  PSAlignmentLayout
 //
 //  Created by shenwenxin on 2020/4/23.
 //  Copyright © 2020 swx. All rights reserved.

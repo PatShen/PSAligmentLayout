@@ -1,6 +1,6 @@
 //
-//  PSAligmentLayout.h
-//  PSAligmentLayout
+//  PSAlignmentLayout.h
+//  PSAlignmentLayout
 //
 //  Created by shenwenxin on 2020/4/23.
 //  Copyright © 2020 swx. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PSAligmentLayout : UICollectionViewFlowLayout
+@interface PSAlignmentLayout : UICollectionViewFlowLayout
 
 /// word wrap，Default is YES
 @property (nonatomic, assign) BOOL autoWordWrap;

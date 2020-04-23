@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "PSAligmentLayout.h"
+#import "PSAlignmentLayout.h"
 #import "UICollectionViewLayoutAttributes+Aligment.h"
 
-FOUNDATION_EXPORT double PSAligmentLayoutVersionNumber;
-FOUNDATION_EXPORT const unsigned char PSAligmentLayoutVersionString[];
+FOUNDATION_EXPORT double PSAlignmentLayoutVersionNumber;
+FOUNDATION_EXPORT const unsigned char PSAlignmentLayoutVersionString[];
 

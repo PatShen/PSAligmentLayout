@@ -1,2 +1,2 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PSAligmentLayout.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PSAlignmentLayout.framework

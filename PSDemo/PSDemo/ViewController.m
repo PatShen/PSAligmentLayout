@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <PSAligmentLayout/PSAligmentLayout.h>
+#import <PSAlignmentLayout/PSAlignmentLayout.h>
 #import "PSDemoCollectionViewCell.h"
 #import <Masonry/Masonry.h>
 
@@ -55,7 +55,7 @@
 
 - (UICollectionView *)cllWrap {
     if (_cllWrap == nil) {
-        PSAligmentLayout* layout = [[PSAligmentLayout alloc] init];
+        PSAlignmentLayout* layout = [[PSAlignmentLayout alloc] init];
         
         UICollectionView* cll = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
         [cll setBackgroundColor:UIColor.yellowColor];
@@ -70,7 +70,7 @@ forCellWithReuseIdentifier:[[PSDemoCollectionViewCell class] description]];
 
 - (UICollectionView *)cllNoWrap {
     if (_cllNoWrap == nil) {
-        PSAligmentLayout* layout = [[PSAligmentLayout alloc] init];
+        PSAlignmentLayout* layout = [[PSAlignmentLayout alloc] init];
         [layout setAutoWordWrap:NO];
         [layout setMinimumInteritemSpacing:20];
         

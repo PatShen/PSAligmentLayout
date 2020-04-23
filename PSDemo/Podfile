@@ -9,6 +9,6 @@ target 'PSDemo' do
   # Pods for PSDemo
   pod 'Masonry'
   
-  pod 'PSAligmentLayout', :path=> '../'
+  pod 'PSAlignmentLayout', :path=> '../'
   
 end
