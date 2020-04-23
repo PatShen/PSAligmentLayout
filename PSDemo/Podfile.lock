@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - PSAligmentLayout (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - PSAligmentLayout (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  PSAligmentLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PSAligmentLayout: ec994b832be42331268966c037f3c6cc76e5f09b
+
+PODFILE CHECKSUM: 38e24d26d91d27cb3360ca33308b2cb8623d3319
+
+COCOAPODS: 1.9.1

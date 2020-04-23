@@ -1,0 +1,6 @@
+framework module PSAligmentLayout {
+  umbrella header "PSAligmentLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
